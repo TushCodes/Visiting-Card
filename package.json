@@ -1,0 +1,16 @@
+{
+  "name": "web_alternative",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./style.css -o ./src/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.4.4",
+    "tailwindcss-cdn": "^3.4.3"
+  }
+}
